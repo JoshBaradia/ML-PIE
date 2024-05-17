@@ -14,7 +14,7 @@ pip install -r requirements.txt
 - The new fine-tuned model gets saved.
 
 ### Testing
-**Using our best UFPN model `/checkpoint_trial_37.pth` and `net_g_240000.pth`
+**Using our best UFPN model `/checkpoint_trial_37.pth` and `net_g_240000.pth`**
 
 ```bash
 python test_test.py: python inference realesrgan.py --model_path experiments/pretrained_ models/net_g_240000.pth -- input inputs

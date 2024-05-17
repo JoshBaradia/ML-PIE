@@ -16,7 +16,7 @@ Enhancing images upto 4x times. Using UFPN output images as input to our ESRGAN 
 pip install -r requirements.txt
 ```
 
-- To Fine-Tune the ESRGAN model run the file `/options/train_test_dataset_4x.yml` which uses `RRDB_ESRGAN_x4.pth` model. 
+- Use the file `/options/train_test_dataset_4x.yml` to Fine-Tune the ESRGAN model which is `RRDB_ESRGAN_x4.pth` model. 
 - The new fine-tuned model gets saved.
 - You can find the model in `experiments/pretrained_models/` folder. 
 

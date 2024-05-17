@@ -4,13 +4,13 @@
 
 ## ✨UFPN
 
-### Training
+### UFPN Training
 
 ## ✨ESRGAN
 
 Enhancing images upto 4x times. Using UFPN output images as input to our ESRGAN model.
 
-### Training
+### ESRGAN Training
 **Make sure that all the dependencies are satisfield use `requirements.txt` file to load the required dependencies.**
 ```bash
 pip install -r requirements.txt
@@ -20,7 +20,7 @@ pip install -r requirements.txt
 - The new fine-tuned model gets saved.
 - You can find the model in `experiments/pretrained_models/` folder. 
 
-### Testing
+### Testing UFPN+ESRGAN
 **Using our best UFPN model `checkpoint_trial_37.pth` and `net_g_240000.pth`**
 - Run the `test_test.py` python script. The UFPN model takes input, which are the Low Resolution-Degraded images from `/testrun_enet` folder and the script saves it in `/inputs` folder. 
 - Then our testing script `inference_realesrgan.py` uses our ESRGAN model, takes input images from the `/inputs` folder which now has enhanced images and saves it in `/results` folder.

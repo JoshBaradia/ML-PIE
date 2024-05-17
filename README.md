@@ -22,8 +22,8 @@ pip install -r requirements.txt
 
 ### Testing
 **Using our best UFPN model `checkpoint_trial_37.pth` and `net_g_240000.pth`**
-- Run the `test_test.py` python script. The UFPN model takes input, which are the Low Resolution-Degraded images from `testrun_enet` folder and the script saves it in `inputs` folder. 
-- Then our ESRGAN model takes input images from the `inputs` folder which now has enhanced images t  and saves it in `results` folder.
+- Run the `test_test.py` python script. The UFPN model takes input, which are the Low Resolution-Degraded images from `/testrun_enet` folder and the script saves it in `/inputs` folder. 
+- Then our testing script `inference_realesrgan.py` uses our ESRGAN model, takes input images from the `/inputs` folder which now has enhanced images and saves it in `/results` folder.
 
 ```bash
 python test_test.py;  python inference_realesrgan.py --model_path experiments/pretrained_models/net_g_240000.pth --input inputs

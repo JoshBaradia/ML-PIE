@@ -1,8 +1,12 @@
 # We propose an attention-guided UNet leveraging spatial/channel attention and feature pyramid integration to correct color and restore details in underwater and also Enhansing the resolution of any Underwater Image using GANs.
 
-## Code will be updated once the paper is published :)  
+## Code will be updated once the paper is published :) 
 
-## ✨ESRGAN✨
+## ✨UFPN
+
+### Training
+
+## ✨ESRGAN
 
 Enhancing images upto 4x times. Using UFPN output images as input to our ESRGAN model.
 

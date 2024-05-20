@@ -4,7 +4,8 @@
 
 ## ✨UFPN
 
-### 🐳UFPN Training
+### 🐳UFPN Training 
+Will be updated once the paper gets published.
 
 ## ✨ESRGAN
 

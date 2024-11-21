@@ -30,3 +30,5 @@ pip install -r requirements.txt
 ```bash
 python test_test.py;  python inference_realesrgan.py --model_path experiments/pretrained_models/net_g_240000.pth --input inputs
 ```
+### The "experiments” folder and "checkpoint_trial_37” has been uploaded on huggingface.co as the files were larger. The model can be downloaded via the following link, access for the model will be automatically granted once requested! https://huggingface.co/joshbaradia/esrgan_240000 
+
